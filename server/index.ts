@@ -43,4 +43,4 @@ gameServer.define(RoomType.CUSTOM, SkyOffice).enableRealtimeListing()
 app.use('/colyseus', monitor())
 
 gameServer.listen(port)
-console.log(`Listening on https://virtual-office-9c1q.onrender.com`)
+console.log(`Listening on https://teamflow-iesb.onrender.com`)

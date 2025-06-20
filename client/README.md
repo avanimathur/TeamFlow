@@ -13,7 +13,7 @@ Installs all the required packages.
 ### `yarn dev`
 
 Runs the app in the development mode.\
-Open [https://virtual-office-9c1q.onrender.com](https://virtual-office-9c1q.onrender.com) to view it in the browser.
+Open [https://teamflow-iesb.onrender.com](https://teamflow-iesb.onrender.com) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
