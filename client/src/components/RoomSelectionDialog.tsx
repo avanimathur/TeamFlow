@@ -195,11 +195,13 @@ export default function RoomSelectionDialog() {
               </Content>
             </>
           )}
+        </Wrapper>
+        
           <Button variant="outlined" color="secondary"
             onClick={() => (window.location.href = '#')} >
             Go Back To HireNext
           </Button>
-        </Wrapper>
+          
         {!lobbyJoined && (
           <ProgressBarWrapper>
             <h3> Connecting to server...</h3>
