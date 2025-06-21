@@ -11,6 +11,7 @@ import VideoConnectionDialog from './components/VideoConnectionDialog'
 import Chat from './components/Chat'
 import HelperButtonGroup from './components/HelperButtonGroup'
 import MobileVirtualJoystick from './components/MobileVirtualJoystick'
+import Button from '@mui/material/Button'
 
 const Backdrop = styled.div`
   position: absolute;
@@ -35,14 +36,21 @@ function App() {
       ui = <WhiteboardDialog />
     } else {
       ui = (
+        <>
         /* Render Chat or VideoConnectionDialog if no dialogs are opened. */
         <>
           <Chat />
           {/* Render VideoConnectionDialog if user is not connected to a webcam. */}
           {!videoConnected && <VideoConnectionDialog />}
           <MobileVirtualJoystick />
-          <button style={{ marginTop: '1rem' }}>Give Interview</button>
         </>
+     
+          <Button variant="outlined" color="secondary" style={{ background: '#fdeded', color: '#7d4747' }}
+            onClick={() => (window.location.href = '#')} >
+            Join Interview
+          </Button>
+          
+          </>
       )
     }
   } else if (roomJoined) {
