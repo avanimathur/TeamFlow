@@ -44,7 +44,7 @@ function App() {
           <MobileVirtualJoystick />
         </>
      <>
-          <Button variant="outlined" color="secondary" style={{ background: '#fdeded', color: '#7d4747' }}
+          <Button variant="outlined" color="secondary" style={{ background: '#05225C', color: '#FFFCFC' }}
             onClick={() => (window.location.href = '#')} >
             Join Interview
           </Button>
