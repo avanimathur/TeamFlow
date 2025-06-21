@@ -1,7 +1,10 @@
 # TeamFlow 
 <img alt="Logo" align="right" src="./client/public/logo192.png" width="20%" />
 
-TeamFlow works on all PC browsers (mobile browsers are currently not supported)
+inspired from https://github.com/kevinshen56714/SkyOffice
+
+## New Feature
+- Interview Simulation
 
 ## Features
 
