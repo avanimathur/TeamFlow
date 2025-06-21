@@ -37,19 +37,18 @@ function App() {
     } else {
       ui = (
         <>
-        /* Render Chat or VideoConnectionDialog if no dialogs are opened. */
         <>
           <Chat />
           {/* Render VideoConnectionDialog if user is not connected to a webcam. */}
           {!videoConnected && <VideoConnectionDialog />}
           <MobileVirtualJoystick />
         </>
-     
+     <>
           <Button variant="outlined" color="secondary" style={{ background: '#fdeded', color: '#7d4747' }}
             onClick={() => (window.location.href = '#')} >
             Join Interview
           </Button>
-          
+          </>
           </>
       )
     }
