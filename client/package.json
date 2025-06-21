@@ -1,7 +1,7 @@
 {
-  "name": "skyoffice",
+  "name": "",
   "private": true,
-  "description": "Client for SkyOffice",
+  "description": "C",
   "version": "1.0.0",
 
   "scripts": {

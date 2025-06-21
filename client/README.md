@@ -1,7 +1,5 @@
 # Getting Started with Vite
 
-SkyOffice's client side was bootstrapped with [Vite](https://vitejs.dev/).
-
 ## Available Scripts
 
 In the project directory, you can run:
