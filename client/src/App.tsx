@@ -56,7 +56,17 @@ function App() {
             onClick={() => (window.location.href = '#')}
           >
             Join Interview
+          </Button> 
+          
+          <Button
+            variant="outlined"
+            color="secondary"
+            style={{ background: '#05225C', color: '#FFFCFC' }}
+            onClick={() => (window.location.href = '#')}
+          >
+            Join Group Discussion
           </Button>
+
         </MainUIWrapper>
       )
     }
