@@ -1,5 +1,5 @@
 # TeamFlow 
-<img alt="Logo" align="right" src="https://user-images.githubusercontent.com/11501902/139942585-a6b044ce-3695-460a-91bd-dd9f1d4611c8.png" width="20%" />
+<img alt="Logo" align="right" src="./client/public/logo192.png" width="20%" />
 
 TeamFlow works on all PC browsers (mobile browsers are currently not supported)
 
