@@ -19,6 +19,15 @@ const Backdrop = styled.div`
   width: 100%;
 `
 
+const MainUIWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px; /* Adjust spacing as needed */
+  position: relative;
+  z-index: 1;
+`
+
 function App() {
   const loggedIn = useAppSelector((state) => state.user.loggedIn)
   const computerDialogOpen = useAppSelector((state) => state.computer.computerDialogOpen)
@@ -36,20 +45,19 @@ function App() {
       ui = <WhiteboardDialog />
     } else {
       ui = (
-        <>
-        <>
+        <MainUIWrapper>
           <Chat />
-          {/* Render VideoConnectionDialog if user is not connected to a webcam. */}
           {!videoConnected && <VideoConnectionDialog />}
           <MobileVirtualJoystick />
-        </>
-     <>
-          <Button variant="outlined" color="secondary" style={{ background: '#05225C', color: '#FFFCFC' }}
-            onClick={() => (window.location.href = '#')} >
+          <Button
+            variant="outlined"
+            color="secondary"
+            style={{ background: '#05225C', color: '#FFFCFC' }}
+            onClick={() => (window.location.href = '#')}
+          >
             Join Interview
           </Button>
-          </>
-          </>
+        </MainUIWrapper>
       )
     }
   } else if (roomJoined) {
